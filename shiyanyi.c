@@ -353,6 +353,6 @@ for(long i=0;i<100000;i++){
     cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
     printf("插入运行时间： %f 秒\n", cpu_time_used);
 
-
+return 0;
     
 }
